@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`"),
+                    caption=caption.replace("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace(" : ", ".").replace("Batch : 470396_IBPS_RRB_PO_Clerk_|_RBI_|_GBO_|_SSC_2024👉Full_Computer_Course👉Live", "**Batch Name :** IBPS RRB PO Clerk RBI GBO SSC 2024 Full Computer Course").replace("Extracted By : @cipherbank", ""),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace("Batch Name :𝐒𝐬𝐜 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝟐𝟎𝟐𝟑-𝟐𝟒", "**Batch Name :** SSC Foundation 2023-24 | Abhinay Maths @Rexodas2023").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", " PDF"),
+                    caption=caption.replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace("Batch Name :𝐒𝐬𝐜 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝟐𝟎𝟐𝟑-𝟐𝟒", "**Batch Name :** SSC Foundation 2023-24 | Abhinay Maths @Rexodas2023").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", " PDF").replace("Batch : 470396_IBPS_RRB_PO_Clerk_|_RBI_|_GBO_|_SSC_2024👉Full_Computer_Course👉Live", "**Batch Name :** IBPS RRB PO Clerk RBI GBO SSC 2024 Full Computer Course").replace("Extracted By : @cipherbank", ""),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
