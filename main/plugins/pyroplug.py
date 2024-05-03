@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("Extracted By ➤ @THEONefeD", "").replace("(854x480) TheOn the one.mkv", "").replace("Tarun_sir_defence_batch_advance_english_warfare_practice_batch", "Tarun Sir Defence Batch Advance English Warfare Practice Batch").replace("Vid ID", "**Vid Id :**").replace("Video Title :", "**Video Title :**").replace("Batch Name :", "**Batch Name :**"),
+                    caption=caption.replace(" (1280x720) 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", ".mp4").replace("Batch Name : 𝐆𝐒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐀𝐀𝐑𝐀𝐌𝐁𝐇 𝐁𝐀𝐓𝐂𝐇 𝟐𝟎𝟐𝟒", "**Batch Name :** GK-GS आरंभ Batch 2024 | CrazyGkTricks\n Join @Rexodas2023 In Case of Copyright").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η💙", "**Downloaded By :** @Rexodas2023"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path, 
-                    caption=caption.replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Provided By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳\n`@RolexEmpire`").replace("Batch Name :𝐒𝐬𝐜 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝟐𝟎𝟐𝟑-𝟐𝟒", "**\nBatch Name :** SSC Foundation 2023-24 | Abhinay Maths @Rexodas2023").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "PDF").replace("Batch : 470396_IBPS_RRB_PO_Clerk_|_RBI_|_GBO_|_SSC_2024👉Full_Computer_Course👉Live", "**Batch Name :** IBPS RRB PO Clerk RBI GBO SSC 2024 Full Computer Course").replace("Extracted By : @cipherbank", ""),
+                    caption=caption.replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η💙", "**Downloaded By :** @RolexEmpire").replace("Batch Name :𝐆𝐒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐀𝐀𝐑𝐀𝐌𝐁𝐇 𝐁𝐀𝐓𝐂𝐇 𝟐𝟎𝟐𝟒", "**\nBatch Name :** GK-GS आरंभ Batch 2024 | CrazyGkTricks").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "(PDF)").replace("Extracted By : @cipherbank", ""),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
