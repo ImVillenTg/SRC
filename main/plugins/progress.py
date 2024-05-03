@@ -5,8 +5,8 @@ import json
 from main.plugins.helpers import TimeFormatter, humanbytes
 
 #------
-FINISHED_PROGRESS_STR = "▰"
-UN_FINISHED_PROGRESS_STR = "▱"
+FINISHED_PROGRESS_STR = "▪️"
+UN_FINISHED_PROGRESS_STR = "▫️"
 DOWNLOAD_LOCATION = "/app"
 
 
@@ -47,7 +47,7 @@ async def progress_for_pyrogram(
             ),
         )  
 
-        tmp = progress + "╭──⌈📤 𝙋𝙧𝙤𝙘𝙚𝙨𝙨𝙞𝙣𝙜  📤⌋──╮ \n├ 𝙂𝙍𝙊𝙎𝙎 : {0} of {1}\n├ 𝙎𝙋𝙀𝙀𝘿 : {2}/s \n├ 𝙀𝙏𝘼 : {3} \n╰────⌈ 𝙍𝙀𝙓𝙊 𝘽𝙊𝙏 ⌋────╯".format(
+        tmp = progress + "├ 𝙂𝙍𝙊𝙎𝙎 : {0} of {1}\n├ 𝙎𝙋𝙀𝙀𝘿 : {2}/s \n├ 𝙀𝙏𝘼 : {3}".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
