@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace(" (1280×720)", "").replace(" (", "").replace(")", "").replace(" 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", ".mp4").replace("Batch Name : 𝐆𝐒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐀𝐀𝐑𝐀𝐌𝐁𝐇 𝐁𝐀𝐓𝐂𝐇 𝟐𝟎𝟐𝟒", "**Batch Name :** GK-GS आरंभ Batch 2024 | CrazyGkTricks\n\n**Join @Rexodas2023 In Case of Copyright**").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η💙", "**Downloaded By :** @Rexodas2023"),
+                    caption=caption.replace("(1280×720)", "").replace(" 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", ".mp4").replace("Batch Name : 𝐆𝐒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐀𝐀𝐑𝐀𝐌𝐁𝐇 𝐁𝐀𝐓𝐂𝐇 𝟐𝟎𝟐𝟒", "**Batch Name :** GK-GS आरंभ Batch 2024 | CrazyGkTricks\n\n**Join @Rexodas2023 In Case of Copyright**").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η💙", "**Downloaded By :** @Rexodas2023"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
