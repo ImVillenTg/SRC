@@ -225,7 +225,6 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                     sender,
                     path, 
                     caption=caption.replace(" (", "").replace(")", "").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η💙", "**Downloaded By :** @RolexEmpire").replace("Batch Name :𝐆𝐒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐀𝐀𝐑𝐀𝐌𝐁𝐇 𝐁𝐀𝐓𝐂𝐇 𝟐𝟎𝟐𝟒", "**\nBatch Name :** GK-GS आरंभ Batch 2024 | CrazyGkTricks").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "(PDF)").replace("👉", " ").replace("_", " ").replace("Extracted By : @cipherbank", "").replace("Mrjoker.pdf", "PDF").replace("Batch Name :", "**Batch Name : **").replace("➤ 𝐌𝐑 𝐉𝐎𝐊𝐄𝐑 ❤️", "`@Rexodas2023`"),
-                   ,
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
