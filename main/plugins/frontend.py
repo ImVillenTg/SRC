@@ -15,7 +15,7 @@ from pyrogram.errors import FloodWait
 #from ethon.telefunc import force_sub
 from main.plugins.helpers import force_sub
 
-logging.basicConfig(level=logging.DEBUG,
+logging.basicConfig(level=logging.debug,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.INFO)
@@ -98,7 +98,7 @@ async def clone(event):
             await ASUR.send_message(event.sender_id, f'Try again after {fw.value} seconds due to floodwait from telegram.')
             await edit.delete()
         except Exception as e:
-            logging.info(f"An error occurred during cloning of `{link}`\n\n**Error:** {str(e)}")
+            logging.info(e)
             await ASUR.send_message(event.sender_id, f"An error occurred during cloning of `{link}`\n\n**Error:** {str(e)}")
             await edit.delete()
         ind = user.index(f'{int(event.sender_id)}')
