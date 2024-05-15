@@ -98,7 +98,7 @@ async def clone(event):
             await ASUR.send_message(event.sender_id, f'Try again after {fw.value} seconds due to floodwait from telegram.')
             await edit.delete()
         except Exception as e:
-            logging.info(e)
+            logging.info(f"An error occurred during cloning of `{link}`\n\n**Error:** {str(e)}")
             await ASUR.send_message(event.sender_id, f"An error occurred during cloning of `{link}`\n\n**Error:** {str(e)}")
             await edit.delete()
         ind = user.index(f'{int(event.sender_id)}')
