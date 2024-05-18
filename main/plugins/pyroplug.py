@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("(1280×720)", "").replace(" 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", ".mp4").replace("Batch Name : 𝐆𝐒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐀𝐀𝐑𝐀𝐌𝐁𝐇 𝐁𝐀𝐓𝐂𝐇 𝟐𝟎𝟐𝟒", "**Batch Name :** GK-GS आरंभ Batch 2024 | CrazyGkTricks\n\n**Join @Rexodas2023 In Case of Copyright**").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η💙", "**Downloaded By :** @Rexodas2023").replace("Uploaded y : @Helper_101bot FREE OF COST ADR_", "").replace("[🎬]", "").replace("RAS Foundation Recorded Batch 2024_2024-05-05_20-54-51(Springboard Academy)", "RAS Foundation Recorded Batch 2024 | Springboard Academy").replace(" Batch :", "Batch Name :").replace("👉", " ").replace("_", " ").replace("Extracted By : @cipherbank", "").replace("➤ 𝐌𝐑 𝐉𝐎𝐊𝐄𝐑 ❤️", "`@Rexodas2023`").replace("Mrjoker.mkv" ".mp4").replace("Batch Name :", "**Batch Name :**"),
+                    caption=caption.replace("Batch :", "**Batch Name :**")replace("_", " ").replace("Extracted By : @cipherbank", ""),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -223,8 +223,8 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 caption = msg.caption if msg.caption is not None else str(file).split("/")[-1]
                 await client.send_document(
                     sender,
-                    path, 
-                    caption=caption.replace(" (", "").replace(")", "").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η💙", "**Downloaded By :** @RolexEmpire").replace("Batch Name :𝐆𝐒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐀𝐀𝐑𝐀𝐌𝐁𝐇 𝐁𝐀𝐓𝐂𝐇 𝟐𝟎𝟐𝟒", "**\nBatch Name :** GK-GS आरंभ Batch 2024 | CrazyGkTricks").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "(PDF)").replace("👉", " ").replace("_", " ").replace("Extracted By : @cipherbank", "").replace("Mrjoker.pdf", "PDF").replace("Batch Name :", "**Batch Name : **").replace("➤ 𝐌𝐑 𝐉𝐎𝐊𝐄𝐑 ❤️", "`@Rexodas2023`").replace("Batch Name :𝐒𝐭𝐚𝐭𝐢𝐜 𝐆𝐊 𝟐𝟎𝟐𝟒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐁𝐚𝐭𝐜𝐡 𝐙𝐞𝐫𝐨 𝐓𝐨 𝐇𝐞𝐫𝐨 𝐋𝐞𝐯𝐞𝐥 𝐅𝐨𝐫 𝐀𝐥𝐥 𝐒𝐒𝐂 𝟐𝟎𝟐𝟒 𝐄𝐱𝐚𝐦 | 𝐁𝐲 𝐒𝐒𝐂 𝐂𝐫𝐚𝐜𝐤𝐞𝐫𝐬 ₹𝟒𝟒𝟗", "**Batch Name : **Static GK 2024 Foundation Batch | SSC Crackers").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "**Join @SSC_HUNTERS For More Exclusive PDFs**").replace("(Live Class PDF For Revsision)", ""),
+                    path,
+                    caption=caption.replace("Batch :", "**Batch Name :**")replace("_", " ").replace("Extracted By : @cipherbank", ""),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
