@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace("Batch :", "**Batch Name :**").replace("_", " ").replace("Extracted By : @cipherbank", "").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "").replace("Batch Name : 𝐒𝐭𝐚𝐭𝐢𝐜 𝐆𝐊 𝟐𝟎𝟐𝟒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐁𝐚𝐭𝐜𝐡 𝐙𝐞𝐫𝐨 𝐓𝐨 𝐇𝐞𝐫𝐨 𝐋𝐞𝐯𝐞𝐥 𝐅𝐨𝐫 𝐀𝐥𝐥 𝐒𝐒𝐂 𝟐𝟎𝟐𝟒 𝐄𝐱𝐚𝐦 | 𝐁𝐲 𝐒𝐒𝐂 𝐂𝐫𝐚𝐜𝐤𝐞𝐫𝐬 ₹𝟒𝟒𝟗", "**Batch Name :** Static GK 2024 Foundation Batch Zero To Hero Level For All SSC 2024 Exam SSC Crackers @Rexodas2023 @RexodasOfficial").replace(" 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", ".mp4").replace(" (1280×720)", "").replace(" (Live)", "(Video)").replace("DI101", "Data Interpretation"),
+                    caption=caption.replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "").replace("Batch Name : 𝐒𝐭𝐚𝐭𝐢𝐜 𝐆𝐊 𝟐𝟎𝟐𝟒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐁𝐚𝐭𝐜𝐡 𝐙𝐞𝐫𝐨 𝐓𝐨 𝐇𝐞𝐫𝐨 𝐋𝐞𝐯𝐞𝐥 𝐅𝐨𝐫 𝐀𝐥𝐥 𝐒𝐒𝐂 𝟐𝟎𝟐𝟒 𝐄𝐱𝐚𝐦 | 𝐁𝐲 𝐒𝐒𝐂 𝐂𝐫𝐚𝐜𝐤𝐞𝐫𝐬 ₹𝟒𝟒𝟗", "\n**Batch Name :** Static GK 2024 Foundation Batch Zero To Hero Level For All SSC 2024 Exam SSC Crackers @Rexodas2023").replace(" 𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.mkv", ".mp4").replace(" (1280×720)", "").replace(" (Live)", "(Video)"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path,
-                    caption=caption.replace("Batch :", "**Batch Name :**").replace("_", " ").replace("Extracted By : @cipherbank", "").replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "").replace("Batch Name :𝐒𝐭𝐚𝐭𝐢𝐜 𝐆𝐊 𝟐𝟎𝟐𝟒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐁𝐚𝐭𝐜𝐡 𝐙𝐞𝐫𝐨 𝐓𝐨 𝐇𝐞𝐫𝐨 𝐋𝐞𝐯𝐞𝐥 𝐅𝐨𝐫 𝐀𝐥𝐥 𝐒𝐒𝐂 𝟐𝟎𝟐𝟒 𝐄𝐱𝐚𝐦 | 𝐁𝐲 𝐒𝐒𝐂 𝐂𝐫𝐚𝐜𝐤𝐞𝐫𝐬 ₹𝟒𝟒𝟗", "**Batch Name :** Static GK 2024 Foundation Batch Zero To Hero Level For All SSC 2024 Exam SSC Crackers @Rexodas2023 @RexodasOfficial").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "(PDF)").replace(" (Live Class PDF For Revsision)", "").replace("DI101", "Data Interpretation"),
+                    caption=caption.replace("Downloaded by : 𝐒𝚝𝚞𝚋𝚋𝘰𝚛η❤️", "").replace("Batch Name :𝐒𝐭𝐚𝐭𝐢𝐜 𝐆𝐊 𝟐𝟎𝟐𝟒 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 𝐁𝐚𝐭𝐜𝐡 𝐙𝐞𝐫𝐨 𝐓𝐨 𝐇𝐞𝐫𝐨 𝐋𝐞𝐯𝐞𝐥 𝐅𝐨𝐫 𝐀𝐥𝐥 𝐒𝐒𝐂 𝟐𝟎𝟐𝟒 𝐄𝐱𝐚𝐦 | 𝐁𝐲 𝐒𝐒𝐂 𝐂𝐫𝐚𝐜𝐤𝐞𝐫𝐬 ₹𝟒𝟒𝟗", "\n**Batch Name :** Static GK 2024 Foundation Batch Zero To Hero Level For All SSC 2024 Exam SSC Crackers @Rexodas2023").replace("𝚂𝚝𝚞𝚋𝚋𝚘𝚛𝚗.pdf", "(PDF)").replace(" (Live Class PDF For Revsision)", ""),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
