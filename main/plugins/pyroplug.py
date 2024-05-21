@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption.replace(".mp4", "\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023").replace(".MP4", "\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023").replace(".JPG", "\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023"),
+                    caption=caption.replace(".mp4", ".mp4\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023").replace(".MP4", ".mp4\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023").replace(".JPG", ".JPG\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023"),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path,
-                    caption=caption.replace(".mp4", "\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023").replace(".MP4", "\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023").replace(".JPG", "\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023"),
+                    caption=caption.replace(".mp4", ".mp4\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023").replace(".MP4", ".mp4\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023").replace(".JPG", ".JPG\n\n**Batch Name :** Python For Beginners By Sir Saurabh Shukla @Rexodas2023"),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
