@@ -177,7 +177,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_video(
                     chat_id=sender,
                     video=path,
-                    caption=caption,
+                    caption=caption.replace("[🎥]Vid Id  »", "").replace("Name:", "").replace("[720] .mkv", ".mkv").replace("📍APP Name : Abhinay Maths", "").replace("⚡️Download by:𝐊𝐔𝐍𝐀𝐋❤️", "").replace("🔰Batch Name:", "**Batch Name :** "),
                     supports_streaming=True,
                     duration=duration,
                     height=hi,
@@ -224,7 +224,7 @@ async def get_msg(userbot, client, sender, edit_id, msg_link, i, file_n):
                 await client.send_document(
                     sender,
                     path,
-                    caption=caption,
+                    caption=caption.replace("[📕]Pdf Id  »", "").replace("Name:", "").replace("Annotation.pdf", "PDF").replace("📍APP Name : Abhinay Maths", "").replace("⚡️Download by:𝐊𝐔𝐍𝐀𝐋❤️", "").replace("🔰Batch Name:", "**Batch Name :** "),
                     thumb=thumb_path,
                     progress=progress_for_pyrogram,
                     progress_args=(
